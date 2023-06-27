@@ -1,0 +1,89 @@
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.avatar {
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+color: blue;
+margin: 0;
+text-decoration: underline;
+letter-spacing: 1.5px;
+word-spacing: 5px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10;
+}
+.table td:nth-child(1) {
+    color: #86898f;
+}
+.contact h2 {
+    text-align: center
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: grey;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.btn {
+    background: greenyellow;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
